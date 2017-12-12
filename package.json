@@ -19,5 +19,11 @@
   "devDependencies": {
     "standard": "^10.0.3",
     "koa": "^2.4.1"
+  },
+  "standard": {
+    "ignore": {
+
+    },
+    "parser": "babel-eslint"
   }
 }
