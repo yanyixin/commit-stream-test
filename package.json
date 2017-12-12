@@ -17,13 +17,20 @@
   },
   "homepage": "https://github.com/yanyixin/commit-stream-test#readme",
   "devDependencies": {
-    "standard": "^10.0.3",
-    "koa": "^2.4.1"
+    "cz-conventional-changelog": "^2.1.0",
+    "koa": "^2.4.1",
+    "standard": "^10.0.3"
   },
   "standard": {
-    "ignore": {
-
-    },
+    "ignore": {},
     "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "commitizen": "^2.9.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
