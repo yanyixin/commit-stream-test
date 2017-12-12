@@ -1,1 +1,6 @@
-# commit-stream-test
+
+开始：
+```
+npm install
+npm start
+```
